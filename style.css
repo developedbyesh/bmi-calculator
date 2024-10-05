@@ -29,3 +29,59 @@ h1 {
 .input-group {
   margin-bottom: 15px;
 }
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#bmiFeedback {
+  font-weight: bold;
+}
+
+.underweight {
+  color: orange;
+}
+
+.normal {
+  color: green;
+}
+
+.overweight {
+  color: red;
+}
+
+.obese {
+  color: darkred;
+}
